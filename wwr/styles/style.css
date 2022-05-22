@@ -1,3 +1,30 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Rubik:wght@300&display=swap');
+
+
+.home-title {
+    font-family: 'Passion One', Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Passion One', Verdana, sans-serif;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Passion One', Verdana, sans-serif;
+}
+
+h4 {
+    font-family: Rubik, Verdana, sans-serif;
+}
+
+.card-img {
+    border: 10px solid #0077B6;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +33,7 @@
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -20,13 +48,24 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains {
+    margin: 200px 0;
+}
+
 #background {
     height: 725px;
     background-color: #00B4D8;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #90E0EF;
+    font-size: 22px;
 }
 
 header {
@@ -42,6 +81,10 @@ nav a:hover {
     background-color: #0077B6;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 
 .book:hover, .join:hover {
@@ -51,10 +94,8 @@ nav a:hover {
 
 .msg {
     background-color: #00B4D8;
-}
-
-footer {
-    background-color: #0077B6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -63,6 +104,15 @@ footer {
 
 .msg p {
     color: white;
+    font-family: Rubik, Verdana, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #0077B6;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -78,14 +128,34 @@ footer a:hover {
     color: white;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo, .icon {
     width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 footer h3 a:hover {
     text-decoration: underline;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+a {
+    font-family: Rubik, Verdana, sans-serif;
 }
