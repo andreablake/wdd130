@@ -234,6 +234,101 @@ a {
 
 
 
+/* Rivers Page */
+.rivers-grid {
+    padding: 0px 100px;
+}
+
+.rivers-title {
+    font-family: 'Passion One', Verdana, sans-serif;
+    font-size: 3.5em;
+    margin: 50px 0px;
+    text-shadow: 5px 5px 10px #363831;
+    color: white;
+}
+
+.rivers-grid h2 {
+    color: white;
+}
+
+.rivers-grid p {
+    color: white;
+    font-family: Rubik, Verdana, sans-serif;
+    font-size: .8em;
+}
+
+.salmon-river {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 50px;
+    background-color: #0077B6;
+    padding: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+#salmon-img {
+    grid-column: 1/2;
+    width: 100%;
+    overflow: hidden;
+}
+
+.salmon-river .river-desc {
+    text-align: left;
+    grid-column: 2/3;
+    padding-left: 50px;
+}
+
+.deso-canyon {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 50px;
+    background-color: #0077B6;
+    padding: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+#deso-canyon-img {
+    grid-column: 2/3;
+    width: 100%;
+    overflow: hidden;
+}
+
+.deso-canyon .river-desc {
+    text-align: right;
+    grid-column: 1/2;
+    padding-right: 50px;
+}
+
+.grand-canyon {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: -50px;
+    background-color: #0077B6;
+    padding: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+#grand-canyon-img {
+    grid-column: 1/2;
+    width: 100%;
+    overflow: hidden;
+}
+
+.grand-canyon .river-desc {
+    text-align: left;
+    grid-column: 2/3;
+    padding-left: 50px;
+}
+
+#salmon-img, #deso-canyon-img, #grand-canyon-img {
+    border: 10px solid #00B4D8;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #363831;
+}
+
 
 
 
