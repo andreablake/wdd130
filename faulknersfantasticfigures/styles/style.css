@@ -164,6 +164,12 @@ p {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.small-img {
+    width: 500px;
+    border: 10px solid var(--secondary-color);
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
 
 /* HOME */
 #home-grid {
@@ -257,20 +263,86 @@ p {
 }
 
 
-
-
 /* 3D PRINTING AND CUSTOMIZATION*/
+#customization-grid {
+    display: grid;
+    grid-template-columns: 40% 10% 10% 40%;
+    grid-template-rows: 200px 400px 200px 200px 350px 400px;
+    align-items: center;
+    justify-items: center; 
+}
+
+#customization-grid .welcome {
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+.paints-img {
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+
+.custom-figure-img {
+    grid-column: 3/5;
+    grid-row: 2/4;
+}
+
+.printing-img {
+    grid-column: 2/4;
+    grid-row: 3/5;
+    height: 500px;
+}
+
+.paints-text {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: 0 140px 0 50px;
+}
+
+.customize-text {
+    grid-column: 4/5;
+    grid-row: 4/5;
+    margin: 0 50px 0 140px;
+
+}
+
+.printing-text {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    margin-top: 50px;
+}
+
+.text-container {
+    grid-column: 1/5;
+    grid-row: 6/7;
+    width: 1580px;
+    margin: 15px 0;
+    background-color: rgba(256,256,256,0.8);
+    z-index: 1;
+}
+
+.action-text {
+    grid-column: 1/5;
+    grid-row: 6/7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Passion One', Verdana, sans-serif;
+    font-size: 2.3em;
+    color: var(--primary-color);
+    align-items: center;
+    justify-items: center; 
+}
 
 
-
-
-
-
-
-
-
-
-
+#customization-grid .banner-img {
+    grid-column: 1/5;
+    grid-row: 6/7;
+    width: 1580px;
+    height: 400px;
+    border: 10px solid var(--secondary-color);
+    box-shadow: 5px 5px 10px #6f7364;
+}
 
 
 /* SIMPLE COMPONENT */
@@ -292,7 +364,6 @@ p {
 .dropbtn a:hover {
     background-color: var(--accent1-color);
     color: var(--primary-color);
-
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -336,8 +407,5 @@ p {
     background-color: var(--accent1-color);
     color: var(--primary-color);
 }
-
-
-
 
 
