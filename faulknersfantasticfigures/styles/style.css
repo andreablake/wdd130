@@ -155,7 +155,6 @@ p {
     font-size: 1em;
     line-height: 1.5em;
     font-family: Rubik, Verdana, sans-serif;
-
 }
 
 .medium-img {
@@ -296,20 +295,20 @@ p {
 .paints-text {
     grid-column: 1/2;
     grid-row: 4/5;
-    margin: 0 140px 0 50px;
+    margin: 80px 140px 0 50px;
 }
 
 .customize-text {
     grid-column: 4/5;
     grid-row: 4/5;
-    margin: 0 50px 0 140px;
+    margin: 80px 50px 0 140px;
 
 }
 
 .printing-text {
     grid-column: 2/4;
     grid-row: 5/6;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .text-container {
